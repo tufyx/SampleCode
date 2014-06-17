@@ -11,10 +11,5 @@ class DBConnection {
 		$result = mysql_query($query_) or die("Error >> ".mysql_error()."<br/>Query >> $query_");
 		return $result;
 	}
-	
-	// fetch array
-	
-	// fetch assoc
-	
 }
 ?>
