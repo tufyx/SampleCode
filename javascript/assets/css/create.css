@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+#map-canvas {
+	height: 70%;
+}
+
+#routePanel {
+	width: 100%;
+	background-color:#FFFFFF;
+	position: fixed;
+	bottom: -320px;
+	padding: 5px;
+	color: #000000;
+	display:block;
+}
+
+#routeDescription {
+	resize: none;
+}
+
+.poi-details {
+	color: #000000;
+	background-color:#FFFFFF;
+	position: fixed;
+	top: -320px;
+	padding: 5px;
+	width: 100%;
+}
+
+.poi-details textarea {
+	resize: none;
+}
+.poi-details div.form-group {
+	margin: 7px;
+}
+
+#poiList {
+	color: #666666;
+	width: 99%;
+	height: 100%;
+	overflow:scroll;
+	position: fixed;
+	top: 0px;
+	right: -1400px; /*needs to be modified in something dynamic*/
+	padding: 5px;
+}
+
+#poiListContainer {
+	margin-bottom: 5px;
+}
+
+.poi-title {
+	width: 85%;
+}
+
+.list-down {
+	margin-right:3px;
+}
+.list-up {
+	margin-right:3px;
+}
+.list-remove {}
